@@ -26,4 +26,20 @@ Microsoft's official guide: https://www.microsoft.com/en-us/windowsinsider/clean
 Ways to install Windows 11: https://support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e
 
 
+# MBR  to GPT
+
+Without Lossing Data win11/10
+
+
+## Installation
+
+CMD.exe (admin)
+
+```bash
+  mbr2gpt /validate /disk:0 /allowFullOS
+``` 
+```
+mbr2gpt /convert /disk:0 /allowFullOS
+```
+after Completing the boot in UEFI Active
 
